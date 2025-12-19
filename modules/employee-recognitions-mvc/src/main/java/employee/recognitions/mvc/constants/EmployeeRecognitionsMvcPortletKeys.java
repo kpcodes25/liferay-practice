@@ -1,7 +1,8 @@
 package employee.recognitions.mvc.constants;
 
 /**
- * @author ASUS
+ * @author krpasindhu.pani
+ * 
  */
 public class EmployeeRecognitionsMvcPortletKeys {
 
