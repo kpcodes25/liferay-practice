@@ -1,0 +1,4 @@
+Bundle-Name: employee-recognitions-mvc
+Bundle-SymbolicName: employee.recognitions.mvc
+Bundle-Version: 1.0.0
+Export-Package: employee.recognitions.mvc.constants
