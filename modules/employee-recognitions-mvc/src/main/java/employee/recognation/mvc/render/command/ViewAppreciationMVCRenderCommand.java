@@ -12,28 +12,22 @@ import org.osgi.service.component.annotations.Component;
 
 import employee.recognitions.mvc.constants.EmployeeRecognitionsMvcPortletKeys;
 
-@Component(
-	    immediate = true,
-	    property = {
-	        "javax.portlet.name=" + EmployeeRecognitionsMvcPortletKeys.EMPLOYEERECOGNITIONSMVC,
-	        "mvc.command.name=/"
-	    },
-	    service = MVCRenderCommand.class
-	)
+@Component(immediate = true, property = {
+		"javax.portlet.name=" + EmployeeRecognitionsMvcPortletKeys.EMPLOYEERECOGNITIONSMVC,
+		"mvc.command.name=/" }, service = MVCRenderCommand.class)
 
 public class ViewAppreciationMVCRenderCommand implements MVCRenderCommand {
-	
-	private static final Log _log =
-	        LogFactoryUtil.getLog(ViewAppreciationMVCRenderCommand.class);
+
+	private static final Log _log = LogFactoryUtil.getLog(ViewAppreciationMVCRenderCommand.class);
 
 	@Override
 	public String render(RenderRequest renderRequest, RenderResponse renderResponse) throws PortletException {
-		  _log.info("Inside ViewAppreciationMVCRenderCommand");
+		_log.info("Inside ViewAppreciationMVCRenderCommand");
 
-	        // Later: fetch appreciation list, leaderboard, pagination
-	        renderRequest.setAttribute("message", "Welcome to Employee Recognition");
+		// Later: fetch appreciation list, leaderboard, pagination
+		renderRequest.setAttribute("message", "Welcome to Employee Recognition");
 
-	        return "/view.jsp";
+		return "/view.jsp";
 	}
 
 }

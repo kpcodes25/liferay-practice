@@ -1,0 +1,10 @@
+Bundle-Name: employee-recognition-service-api
+Bundle-SymbolicName: employee.recognition.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	employee.recognition.service.exception,\
+	employee.recognition.service.model,\
+	employee.recognition.service.service,\
+	employee.recognition.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../employee-recognition-service-service/service.xml

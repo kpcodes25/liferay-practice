@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="employee.recognition.service.model.Appreciation">
+		<field name="uuid" type="String" />
+		<field name="appreciationId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="fromUserId" type="long" />
+		<field name="toUserId" type="long" />
+		<field name="message" type="String" />
+	</model>
+</model-hints>
