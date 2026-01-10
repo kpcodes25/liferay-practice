@@ -1,0 +1,6 @@
+Bundle-Name: employee-recognition-apis-api
+Bundle-SymbolicName: employee.recognition.apis.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	employee.recognition.apis.dto.v1_0,\
+	employee.recognition.apis.resource.v1_0

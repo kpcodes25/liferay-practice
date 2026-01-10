@@ -1,0 +1,5 @@
+Bundle-Name: employee-recognition-apis-test
+Bundle-SymbolicName: employee.recognition.apis.test
+Bundle-Version: 1.0.0
+-includeresource: employee.recognition.apis.client.jar=../employee-recognition-apis-client/build/libs/employee.recognition.apis.client-1.0.0.jar;lib:=true
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}

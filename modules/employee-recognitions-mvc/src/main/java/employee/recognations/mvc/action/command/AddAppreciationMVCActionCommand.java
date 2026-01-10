@@ -21,7 +21,7 @@ import employee.recognitions.mvc.constants.EmployeeRecognitionsMvcPortletKeys;
 
 @Component(immediate = true, property = {
 		"javax.portlet.name=" + EmployeeRecognitionsMvcPortletKeys.EMPLOYEERECOGNITIONSMVC,
-		"mvc.command.name=/appreciation/add" }, service = MVCActionCommand.class)
+		"mvc.command.name=appreciation/submit" }, service = MVCActionCommand.class)
 public class AddAppreciationMVCActionCommand implements MVCActionCommand {
 
 	private static final Log _log = LogFactoryUtil.getLog(AddAppreciationMVCActionCommand.class);

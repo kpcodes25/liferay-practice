@@ -10,12 +10,10 @@
 
 <h3><%=message%></h3>
 
-<portlet:actionURL name="/appreciation/add" var="addAppreciationURL" />
+<portlet:actionURL name="appreciation/submit" var="addAppreciationURL" />
 <portlet:resourceURL var="fetchURL" id="/appreciation/fetch" />
 
 <aui:form action="<%=addAppreciationURL%>" method="post">
-	<aui:input type="hidden" name="mvcActionCommandName"
-		value="/appreciation/add" />
 	<aui:input name="toUserId" label="Appreciated User ID" required="true" />
 	<aui:input name="message" label="Message" type="textarea"
 		required="true" />

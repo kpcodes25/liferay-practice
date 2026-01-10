@@ -1,0 +1,9 @@
+apiDir: "../employee-recognition-apis-api/src/main/java"
+apiPackagePath: "employee.recognition.apis"
+application:
+    baseURI: "/employee-recognition-apis"
+    className: "EmployeeRecognitionApisApplication"
+    name: "EmployeeRecognitionApis"
+author: "ASUS"
+clientDir: "../employee-recognition-apis-client/src/main/java"
+testDir: "../employee-recognition-apis-test/src/testIntegration/java"
