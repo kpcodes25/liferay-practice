@@ -1,0 +1,4 @@
+Bundle-Name: liferay-configuration
+Bundle-SymbolicName: liferay.configuration
+Bundle-Version: 1.0.0
+Export-Package: liferay.configuration.api

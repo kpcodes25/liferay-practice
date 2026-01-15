@@ -1,0 +1,3 @@
+Bundle-Name: job-schedulers
+Bundle-SymbolicName: job.schedulers
+Bundle-Version: 1.0.0
