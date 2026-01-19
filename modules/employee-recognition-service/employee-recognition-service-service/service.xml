@@ -8,7 +8,7 @@
 		remote-service="false" session-factory="sampleSessionFactory" table="foo" 
 		tx-manager="sampleTransactionManager uuid="true""> -->
 	<entity name="Appreciation" local-service="true"
-		remote-service="false" uuid="true">
+		remote-service="true" uuid="true">
 
 		<!-- Primary Key -->
 		<column name="appreciationId" primary="true" type="long" />

@@ -20,6 +20,7 @@ import com.liferay.exportimport.kernel.lar.StagedModelType;
 import com.liferay.petra.string.StringBundler;
 import com.liferay.portal.kernel.bean.AutoEscapeBeanHandler;
 import com.liferay.portal.kernel.exception.PortalException;
+import com.liferay.portal.kernel.json.JSON;
 import com.liferay.portal.kernel.model.CacheModel;
 import com.liferay.portal.kernel.model.ModelWrapper;
 import com.liferay.portal.kernel.model.User;
@@ -62,6 +63,7 @@ import java.util.function.Function;
  * @see AppreciationImpl
  * @generated
  */
+@JSON(strict = true)
 public class AppreciationModelImpl
 	extends BaseModelImpl<Appreciation> implements AppreciationModel {
 
@@ -307,6 +309,7 @@ public class AppreciationModelImpl
 			(Map)attributeSetterBiConsumers);
 	}
 
+	@JSON
 	@Override
 	public String getUuid() {
 		if (_uuid == null) {
@@ -335,6 +338,7 @@ public class AppreciationModelImpl
 		return getColumnOriginalValue("uuid_");
 	}
 
+	@JSON
 	@Override
 	public long getAppreciationId() {
 		return _appreciationId;
@@ -349,6 +353,7 @@ public class AppreciationModelImpl
 		_appreciationId = appreciationId;
 	}
 
+	@JSON
 	@Override
 	public long getGroupId() {
 		return _groupId;
@@ -372,6 +377,7 @@ public class AppreciationModelImpl
 		return GetterUtil.getLong(this.<Long>getColumnOriginalValue("groupId"));
 	}
 
+	@JSON
 	@Override
 	public long getCompanyId() {
 		return _companyId;
@@ -396,6 +402,7 @@ public class AppreciationModelImpl
 			this.<Long>getColumnOriginalValue("companyId"));
 	}
 
+	@JSON
 	@Override
 	public long getUserId() {
 		return _userId;
@@ -426,6 +433,7 @@ public class AppreciationModelImpl
 	public void setUserUuid(String userUuid) {
 	}
 
+	@JSON
 	@Override
 	public String getUserName() {
 		if (_userName == null) {
@@ -445,6 +453,7 @@ public class AppreciationModelImpl
 		_userName = userName;
 	}
 
+	@JSON
 	@Override
 	public Date getCreateDate() {
 		return _createDate;
@@ -459,6 +468,7 @@ public class AppreciationModelImpl
 		_createDate = createDate;
 	}
 
+	@JSON
 	@Override
 	public Date getModifiedDate() {
 		return _modifiedDate;
@@ -479,6 +489,7 @@ public class AppreciationModelImpl
 		_modifiedDate = modifiedDate;
 	}
 
+	@JSON
 	@Override
 	public long getFromUserId() {
 		return _fromUserId;
@@ -509,6 +520,7 @@ public class AppreciationModelImpl
 	public void setFromUserUuid(String fromUserUuid) {
 	}
 
+	@JSON
 	@Override
 	public long getToUserId() {
 		return _toUserId;
@@ -549,6 +561,7 @@ public class AppreciationModelImpl
 			this.<Long>getColumnOriginalValue("toUserId"));
 	}
 
+	@JSON
 	@Override
 	public String getMessage() {
 		if (_message == null) {
