@@ -1,0 +1,5 @@
+Bundle-Name: global-css-contributor
+Bundle-SymbolicName: global.css.contributor
+Bundle-Version: 1.0.0
+Liferay-Theme-Contributor-Type: global-css-contributor
+Web-ContextPath: /global-css-contributor-theme-contributor

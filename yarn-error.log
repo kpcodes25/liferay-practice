@@ -1,0 +1,43 @@
+Arguments: 
+  D:\liferay-workspace\new-liferay-workspace\employee-recognition-workspace\build\node\node.exe D:\liferay-workspace\new-liferay-workspace\employee-recognition-workspace\build\node\node_modules\yarn\yarn-1.13.0.js --production false install --ignore-engines
+
+PATH: 
+  D:\liferay-workspace\new-liferay-workspace\employee-recognition-workspace\build\node;c:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\jdk-11.0.18\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\6.0\bin;C:\mongosh-1.10.3-win32-x64\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\ASUS\.jpm\windows\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\maven\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;D:\Vs code WorkSpace\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;D:\Java\jdk-11.0.28_windows-x64_bin\jdk-11.0.28\bin;
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (D:\liferay-workspace\new-liferay-workspace\employee-recognition-workspace\build\node\node_modules\yarn\yarn-1.13.0.js:124525:19)
+      at Object.onceWrapper (node:events:509:28)
+      at ClientRequest.emit (node:events:390:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)
+      at Object.onceWrapper (node:events:509:28)
+      at TLSSocket.emit (node:events:402:35)
+      at TLSSocket.Socket._onTimeout (node:net:501:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+      "private": true,
+      "workspaces": {
+          "packages": [
+              "client-extensions\\my-custom-element",
+              "client-extensions\\user-management"
+          ]
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

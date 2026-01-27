@@ -24,7 +24,7 @@
 
 <div class="blade-docs">
 
-	<h2>Blade CLI & Liferay Workspace Setup</h2>
+	<h2 class="global-title-red">Blade CLI & Liferay Workspace Setup</h2>
 
 	<h3>Blade Download</h3>
 	<p>

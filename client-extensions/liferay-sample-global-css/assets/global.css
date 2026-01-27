@@ -1,0 +1,16 @@
+body::before {
+  color: #0054f0;
+  content: 'Liferay Sample Global CSS 1';
+  display: block;
+  margin-left: 2rem;
+}
+
+a {
+    font-weight: bolder;
+}
+
+h2.global-title-red {
+  color: red !important;
+  background-color: yellow;
+}
+

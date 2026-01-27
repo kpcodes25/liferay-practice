@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "client-extensions\\my-custom-element",
+            "client-extensions\\user-management"
+        ]
+    }
+}
