@@ -1,0 +1,26 @@
+assemble:
+  - from: build/static
+    into: static
+liferay-sample-custom-element-4:
+  friendlyURLMapping: liferay-sample-custom-element-4
+  htmlElementName: liferay-sample-custom-element-4
+  instanceable: false
+  dxp.lxc.liferay.com.virtualInstanceId: liferay.com
+  name: Liferay Sample Custom Element 4  
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - index.*.js
+  useESM: true
+
+liferay-sample-custom-element-4-instance1:
+  friendlyURLMapping: liferay-sample-custom-element-4
+  htmlElementName: liferay-sample-custom-element-4
+  instanceable: false
+  dxp.lxc.liferay.com.virtualInstanceId: instance1
+  name: Liferay Sample Custom Element 4  
+  portletCategoryName: category.client-extensions
+  type: customElement
+  urls:
+    - index.*.js
+  useESM: true

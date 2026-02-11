@@ -1,0 +1,46 @@
+{
+  "externalReferenceCode": "EMPLOYEE_OBJECT_V6",
+  "label": {
+    "en_US": "Employee V6"
+  },
+  "name": "EmployeeV6",
+  "objectFields": [
+    {
+      "businessType": "Text",
+      "DBType": "String",
+      "indexed": false,
+      "indexedAsKeyword": false,
+      "label": {
+        "en_US": "Employee Name"
+      },
+      "name": "employeeName",
+      "required": true
+    },
+    {
+      "businessType": "Text",
+      "DBType": "String",
+      "indexed": false,
+      "indexedAsKeyword": false,
+      "label": {
+        "en_US": "Email"
+      },
+      "name": "email",
+      "required": false
+    },
+    {
+      "businessType": "Text",
+      "DBType": "String",
+      "indexed": false,
+      "indexedAsKeyword": false,
+      "label": {
+        "en_US": "Position"
+      },
+      "name": "position",
+      "required": false
+    }
+  ],
+  "pluralLabel": {
+    "en_US": "Employees V6"
+  },
+  "scope": "site"
+}

@@ -1,0 +1,13 @@
+liferay-sample-site-initializer-v6:
+    name: Liferay Sample Site Initializer V6
+    oAuthApplicationHeadlessServer: liferay-sample-site-initializer-v6-oahs
+    siteExternalReferenceCode: LIFERAY_SAMPLE_V6
+    siteName: Liferay Sample V6
+    type: siteInitializer
+liferay-sample-site-initializer-v6-oahs:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Liferay Sample Site Initializer V6 OAuth Application Headless Server
+    scopes:
+        - Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer

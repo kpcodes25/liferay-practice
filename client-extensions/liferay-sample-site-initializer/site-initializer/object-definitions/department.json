@@ -1,0 +1,77 @@
+{
+  "externalReferenceCode": "DEPARTMENT_OBJECT_V6",
+  "label": {
+    "en_US": "Department V6"
+  },
+  "name": "DepartmentV6",
+  "pluralLabel": {
+    "en_US": "Departments V6"
+  },
+  "scope": "site",
+  "enableCategorization": true,
+  "enableComments": false,
+  "enableLocalization": false,
+  "enableIndexSearch": true,
+  "objectFields": [
+    {
+      "businessType": "Text",
+      "DBType": "String",
+      "indexed": false,
+      "indexedAsKeyword": false,
+      "label": {
+        "en_US": "Department Name"
+      },
+      "name": "departmentName",
+      "required": true
+    },
+    {
+      "businessType": "Text",
+      "DBType": "String",
+      "indexed": false,
+      "indexedAsKeyword": false,
+      "label": {
+        "en_US": "Location"
+      },
+      "name": "location",
+      "required": false
+    }
+  ],
+  "objectRelationships": [
+    {
+      "externalReferenceCode": "DEPARTMENT_EMPLOYEE_REL",
+      "name": "departmentEmployees",
+      "type": "oneToMany",
+      "reverse": false,
+      "deletionType": "prevent",
+      "label": {
+        "en_US": "Department Name"
+      },
+      "objectDefinitionExternalReferenceCode1": "DEPARTMENT_OBJECT_V6",
+      "objectDefinitionExternalReferenceCode2": "EMPLOYEE_OBJECT_V6",
+      "objectField": {
+        "name": "r_departmentName_c_departmentId",
+        "label": {
+          "en_US": "Department Name"
+        },
+        "businessType": "Relationship",
+        "DBType": "Long",
+        "type": "Long",
+        "relationshipType": "oneToMany",
+        "required": false,
+        "indexed": true,
+        "indexedAsKeyword": false,
+        "system": false,
+        "objectFieldSettings": [
+          {
+            "name": "objectDefinition1ShortName",
+            "value": "DepartmentV6"
+          },
+          {
+            "name": "objectRelationshipERCObjectFieldName",
+            "value": "r_departmentName_c_departmentERC"
+          }
+        ]
+      }
+    }
+  ]
+}
